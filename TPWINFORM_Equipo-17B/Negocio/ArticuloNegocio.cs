@@ -14,6 +14,7 @@ namespace Negocio
         {
             List<Articulo> lista = new List<Articulo>();
             AccesoDatos datos = new AccesoDatos();
+            ImgNegocio imgNegocio = new ImgNegocio();
 
             try
             {
@@ -38,34 +39,12 @@ namespace Negocio
 
                     aux.Precio = (decimal)datos.Lector["Precio"];
 
-                    //aux.UrlImagen = (string) datos.Lector["UrlImagen"];
-                    aux.Imagenes = new List<Imagen>();
+                    // Cargar imágenes desde ImagenNegocio
+                    aux.Imagenes = imgNegocio.ListarPorArticulo(aux.Id);
+                    if (aux.Imagenes.Count > 0)
+                        aux.UrlImagen = aux.Imagenes[0].Imagen_URL;
 
                     lista.Add(aux);
-                }
-
-                datos.cerrarConexion();
-
-                foreach (Articulo art in lista)
-                {
-                    AccesoDatos datosImg = new AccesoDatos();
-                    datosImg.setearConsulta("SELECT Id, ImagenUrl FROM IMAGENES WHERE IdArticulo = @IdArticulo");
-                    datosImg.setearParametro("@IdArticulo", art.Id);
-                    datosImg.ejecutarLectura();
-
-                    while (datosImg.Lector.Read())
-                    {
-                        Imagen img = new Imagen();
-                        img.Id = (int)datosImg.Lector["Id"];
-                        img.Imagen_URL = (string)datosImg.Lector["ImagenUrl"];
-
-                        art.Imagenes.Add(img);
-                    }
-
-                    if (art.Imagenes.Count > 0)
-                        art.UrlImagen = art.Imagenes[0].Imagen_URL;
-
-                    datosImg.cerrarConexion();
                 }
 
                 return lista;
@@ -81,10 +60,10 @@ namespace Negocio
         }
         public void Agregar(Articulo nuevo)
         {
-
-           AccesoDatos datos = new AccesoDatos();
+            AccesoDatos datos = new AccesoDatos();
             try
             {
+                // Insert articulo
                 datos.setearConsulta("INSERT INTO ARTICULOS (Codigo, Nombre, Descripcion, IdMarca, IdCategoria, Precio) " +
                                      "VALUES (@Codigo, @Nombre, @Descripcion, @IdMarca, @IdCategoria, @Precio)");
                 datos.setearParametro("@Codigo", nuevo.Codigo);
@@ -96,13 +75,26 @@ namespace Negocio
 
                 datos.ejecutarAccion();
 
-                if (!string.IsNullOrEmpty(nuevo.UrlImagen))
+                // Id generado del art.
+                datos.setearConsulta("SELECT MAX(Id) FROM ARTICULOS");
+                datos.ejecutarLectura();
+                int idArticulo = 0;
+                if (datos.Lector.Read())
+                    idArticulo = (int)datos.Lector[0];
+                datos.cerrarConexion();
+
+                // Insert todas img
+                if (nuevo.Imagenes != null && nuevo.Imagenes.Count > 0)
                 {
-                    AccesoDatos datosImg = new AccesoDatos();
-                    datosImg.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) " +
-                                            "VALUES ((SELECT MAX(Id) FROM ARTICULOS), @ImagenUrl)");
-                    datosImg.setearParametro("@ImagenUrl", nuevo.UrlImagen);
-                    datosImg.ejecutarAccion();
+                    foreach (Imagen img in nuevo.Imagenes)
+                    {
+                        AccesoDatos datosImg = new AccesoDatos();
+                        datosImg.setearConsulta("INSERT INTO IMAGENES (IdArticulo, ImagenUrl) VALUES (@IdArticulo, @ImagenUrl)");
+                        datosImg.setearParametro("@IdArticulo", idArticulo);
+                        datosImg.setearParametro("@ImagenUrl", img.Imagen_URL);
+                        datosImg.ejecutarAccion();
+                        datosImg.cerrarConexion();
+                    }
                 }
             }
             catch (Exception ex)
@@ -114,6 +106,7 @@ namespace Negocio
                 datos.cerrarConexion();
             }
         }
+
         public void Eliminar(int id)
         {
            AccesoDatos datos = new AccesoDatos();
