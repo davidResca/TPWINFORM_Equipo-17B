@@ -23,13 +23,11 @@ namespace TPWINFORM_Equipo_17B
         {
             InitializeComponent();
         } 
-
         private void frmPrincipal_Load(object sender, EventArgs e)
         {
             inicializarFiltros();
             cargar();
         }
-
         private void cargar()
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
@@ -44,19 +42,22 @@ namespace TPWINFORM_Equipo_17B
                 MessageBox.Show("Error al cargar artículos: " + ex.Message);
             }
         }
-
         private void refrescarGrid(List<Articulo> fuente)
         {
             dgvArticulos.DataSource = null;
             dgvArticulos.DataSource = fuente;
-            //dgvArticulos.Columns["UrlImagen"].Visible = false;
+
+            dgvArticulos.Columns["UrlImagen"].Visible = false;
+
             if (dgvArticulos.Columns.Contains("Marca"))
                 dgvArticulos.Columns["Marca"].Visible = false;
+
             if (dgvArticulos.Columns.Contains("Categoria"))
                 dgvArticulos.Columns["Categoria"].Visible = false;
 
             if (dgvArticulos.Columns.Contains("MarcaDescripcion"))
                 dgvArticulos.Columns["MarcaDescripcion"].HeaderText = "Marca";
+
             if (dgvArticulos.Columns.Contains("CategoriaDescripcion"))
                 dgvArticulos.Columns["CategoriaDescripcion"].HeaderText = "Categoria";
 
@@ -67,7 +68,6 @@ namespace TPWINFORM_Equipo_17B
                 mostrarImagen();
             }
         }
-
         private void inicializarFiltros()
         {
             cboCampo.Items.Clear();
@@ -75,7 +75,6 @@ namespace TPWINFORM_Equipo_17B
             if (cboCampo.Items.Count > 0)
                 cboCampo.SelectedIndex = 0;
         }
-
         private void dgvArticulos_SelectionChanged_1(object sender, EventArgs e)
         {
             if (dgvArticulos.CurrentRow != null)
@@ -85,7 +84,6 @@ namespace TPWINFORM_Equipo_17B
                 mostrarImagen();
             }
         }
-
         private void cboCampo_SelectedIndexChanged(object sender, EventArgs e)
         {
             // Muestra solo cuando el campo seleccionado es Precio
@@ -99,13 +97,11 @@ namespace TPWINFORM_Equipo_17B
             }
             txtFiltro.Enabled = !(esPrecio && (cboPrecioCriterio.SelectedItem != null && (cboPrecioCriterio.SelectedItem.ToString() == "Tiene dato" || cboPrecioCriterio.SelectedItem.ToString() == "No tiene dato")));
         }
-
         private void cboPrecioCriterio_SelectedIndexChanged(object sender, EventArgs e)
         {
             bool deshabilitar = cboPrecioCriterio.SelectedItem != null && (cboPrecioCriterio.SelectedItem.ToString() == "Tiene dato" || cboPrecioCriterio.SelectedItem.ToString() == "No tiene dato");
             txtFiltro.Enabled = !deshabilitar;
         }
-
         private void btnBuscar_Click(object sender, EventArgs e)
         {
             if (listaArticulosOriginal == null)
@@ -167,7 +163,6 @@ namespace TPWINFORM_Equipo_17B
             listaArticulos = query.ToList();
             refrescarGrid(listaArticulos);
         }
-
         private void btnLimpiar_Click(object sender, EventArgs e)
         {
             txtFiltro.Text = string.Empty;
@@ -175,7 +170,6 @@ namespace TPWINFORM_Equipo_17B
                 cboCampo.SelectedIndex = 0;
             cargar();
         }
-
         private void mostrarImagen()
         {
             if (articuloSeleccionado.Imagenes.Count > 0)
@@ -185,7 +179,6 @@ namespace TPWINFORM_Equipo_17B
 
             actualizarBotones();
         }
-
         private void cargarImagen(string url)
         {
             try
@@ -197,13 +190,11 @@ namespace TPWINFORM_Equipo_17B
                 pbxImagen.Load("https://media.istockphoto.com/id/1128826884/vector/no-image-vector-symbol-missing-available-icon-no-gallery-for-this-moment.jpg?s=612x612&w=0&k=20&c=390e76zN_TJ7HZHJpnI7jNl7UBpO3UP7hpR2meE1Qd4=");
             }
         }
-
         private void actualizarBotones()
         {
             btnAnterior.Enabled = indiceImagenActual > 0;
             btnSiguiente.Enabled = indiceImagenActual < articuloSeleccionado.Imagenes.Count - 1;
         }
-
         private void btnAnterior_Click(object sender, EventArgs e)
         {
             if (indiceImagenActual > 0)
@@ -212,7 +203,6 @@ namespace TPWINFORM_Equipo_17B
                 mostrarImagen();
             }
         }
-
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
             if (indiceImagenActual < articuloSeleccionado.Imagenes.Count - 1)
@@ -227,27 +217,32 @@ namespace TPWINFORM_Equipo_17B
             alta.ShowDialog();
             cargar();
         }
-
         private void btnEliminarFisico_Click(object sender, EventArgs e)
         {
             ArticuloNegocio negocio = new ArticuloNegocio();
-            Articulo seleccionado;
             try
             {
-                DialogResult respuesta = MessageBox.Show("¿Estas seguro que queres eliminar el Articulo?", "Eliminando", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+                Articulo seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem; ;
+                if (seleccionado == null) return;
+                   
+                DialogResult respuesta = MessageBox.Show(
+                    "¿Estas seguro que queres eliminar el Articulo?", 
+                    "Eliminando", 
+                    MessageBoxButtons.YesNo, 
+                    MessageBoxIcon.Warning
+                );
+                
                 if(respuesta == DialogResult.Yes)
                 {
-                    seleccionado = (Articulo)dgvArticulos.CurrentRow.DataBoundItem;
                     negocio.Eliminar(seleccionado.Id);
+                    cargar();
                 }
-                    return;
             }
             catch (Exception ex)
             {   
-                MessageBox.Show(ex.ToString());
+                MessageBox.Show("Error al eliminar un articulo: " + ex.ToString());
             }
         }
-
         private void btnEditar_Click(object sender, EventArgs e)
         {
             if (dgvArticulos.CurrentRow == null)
@@ -258,7 +253,6 @@ namespace TPWINFORM_Equipo_17B
             editar.ShowDialog();
             cargar();
         }
-
         private void dgvArticulos_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0 && dgvArticulos.CurrentRow != null)

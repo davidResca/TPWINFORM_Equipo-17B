@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\",
+  "WorkspaceRootPath": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\tpwinform_equipo-17b\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|c:\\users\\el jom\\desktop\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|c:\\users\\el jom\\desktop\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmaltaarticulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|c:\\users\\el jom\\desktop\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\tpwinform_equipo-17b\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{284F7297-C2AB-4E2A-B518-E915B86C4BC4}|Negocio\\Negocio.csproj|c:\\users\\el jom\\desktop\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{284F7297-C2AB-4E2A-B518-E915B86C4BC4}|Negocio\\Negocio.csproj|solutionrelative:negocio\\articulonegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|c:\\users\\el jom\\desktop\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|c:\\users\\el jom\\desktop\\nueva carpeta\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\frmdetalleproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmdetalleproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\tpwinform_equipo-17b\\frmdetalleproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|c:\\users\\el jom\\desktop\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\tpwinform_equipo-17b\\frmdetalleproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmdetalleproducto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\tpwinform_equipo-17b\\frmdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\tpwinform_equipo-17b\\frmdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{5DE3DE03-84EB-4B58-B0C9-A4B7E2EB12D4}|TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B.csproj|solutionrelative:tpwinform_equipo-17b\\frmdetalle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,79 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 390,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "frmDetalleProducto.cs",
-              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
-              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
-              "ToolTip": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
-              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
-              "ViewState": "AgIAAE0AAAAAAAAAAAAqwGAAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "frmAltaArticulo.cs",
+              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmAltaArticulo.cs",
+              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmAltaArticulo.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T02:53:41.865Z",
+              "WhenOpened": "2025-09-29T18:15:12.257Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmPrincipal.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs [Dise\u00F1o]",
-              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "frmAltaArticulo.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmAltaArticulo.cs",
+              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmAltaArticulo.cs",
+              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmAltaArticulo.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmAltaArticulo.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T02:43:51.468Z",
+              "WhenOpened": "2025-09-29T16:52:36.21Z",
               "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "frmDetalleProducto.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
-              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
-              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalleProducto.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalleProducto.cs [Dise\u00F1o]",
+              "DocumentIndex": 2,
+              "Title": "frmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs",
+              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmPrincipal.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAqwL0AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T02:53:34.428Z"
+              "WhenOpened": "2025-09-29T16:53:09.112Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "frmPrincipal.cs",
-              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs",
-              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmPrincipal.cs",
-              "ToolTip": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs",
-              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmPrincipal.cs",
-              "ViewState": "AgIAAP8AAAAAAAAAAAAqwBIBAAANAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "ArticuloNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\Negocio\\ArticuloNegocio.cs",
+              "RelativeDocumentMoniker": "Negocio\\ArticuloNegocio.cs",
+              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\Negocio\\ArticuloNegocio.cs",
+              "RelativeToolTip": "Negocio\\ArticuloNegocio.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwIIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T02:40:04.391Z",
+              "WhenOpened": "2025-09-29T17:05:17.51Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "frmDetalle.cs",
-              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalle.cs",
-              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmDetalle.cs",
-              "ToolTip": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalle.cs",
-              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmDetalle.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Title": "frmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs",
+              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmPrincipal.cs",
+              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmPrincipal.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T02:49:56.269Z"
+              "WhenOpened": "2025-09-29T16:52:34.565Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "frmDetalle.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\Nueva carpeta\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalle.cs",
-              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmDetalle.cs",
-              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalle.cs [Dise\u00F1o]",
-              "RelativeToolTip": "..\\..\\..\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalle.cs [Dise\u00F1o]",
+              "Title": "frmDetalleProducto.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
+              "RelativeDocumentMoniker": "TPWINFORM_Equipo-17B\\frmDetalleProducto.cs",
+              "ToolTip": "C:\\Users\\El Jom\\Desktop\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\TPWINFORM_Equipo-17B\\frmDetalleProducto.cs [Dise\u00F1o]",
+              "RelativeToolTip": "TPWINFORM_Equipo-17B\\frmDetalleProducto.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-15T02:46:08.348Z"
+              "WhenOpened": "2025-09-29T16:52:32.788Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

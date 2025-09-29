@@ -51,7 +51,7 @@ namespace Negocio
             }
 
         
-public void ejecutarAccion()
+        public void ejecutarAccion()
         {
             comando.Connection = conexion;
             try
